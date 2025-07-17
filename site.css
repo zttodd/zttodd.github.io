@@ -1,0 +1,37 @@
+body {
+    /* 
+     * Background pattern sourced and modified from "parkay floor" pattern on https://heropatterns.com/
+     */
+    background-color: #483036;
+    background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 20.5V18H0v-2h20v-2H0v-2h20v-2H0V8h20V6H0V4h20V2H0V0h22v20h2V0h2v20h2V0h2v20h2V0h2v20h2V0h2v20h2v2H20v-1.5zM0 20h2v20H0V20zm4 0h2v20H4V20zm4 0h2v20H8V20zm4 0h2v20h-2V20zm4 0h2v20h-2V20zm4 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2z' fill='%2357486f' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #121111;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    padding: 0.5rem 1rem;
+}
+
+.heading {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 1080px) {
+    h1 {
+        font-size: 5rem;
+    }
+}
