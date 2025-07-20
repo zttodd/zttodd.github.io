@@ -1,0 +1,33 @@
+.heading {
+    color: #fff;
+    left: 50%;
+    margin: 0;
+    padding: 0 2rem;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+h1 {
+    background-color: #121111;
+    font-family: var(--font-roboto-mono);
+    font-optical-sizing: auto;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    padding: 0.5rem 1rem;
+}
+
+@media screen and (min-width: 550px) {
+    .heading {
+        width: max-content;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    h1 {
+        font-size: 5rem;
+    }
+}
