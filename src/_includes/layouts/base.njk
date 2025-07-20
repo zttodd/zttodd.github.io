@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include "partials/head/meta.njk" %}
+    
+    <title>{{ title }}</title>
+
+    {% include "partials/head/fonts.njk" %}
+    {% include "partials/head/favicon.njk" %}
+    {% include "partials/head/css.njk" %}
+</head>
+<body>
+    {{ content | safe }}
+
+    {% include "partials/scripts/js.njk" %}
+</body>
+</html>

@@ -11,12 +11,11 @@
     "postcss": "^8.5.6",
     "postcss-cli": "^11.0.1",
     "postcss-import": "^16.1.1",
-    "postcss-modules": "^6.0.1",
     "postcss-nested": "^7.0.2"
   },
   "scripts": {
     "eleventy:serve": "npx @11ty/eleventy --serve",
-    "postcss": "postcss --no-map src/css/site.css --use autoprefixer cssnano postcss-import postcss-nested -o _site/css/site.css --watch --poll",
+    "postcss": "postcss --no-map src/_assets/css/site.css --config postcss.config.cjs -o _site/_assets/css/site.css --watch --poll",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "run-p eleventy:serve postcss"
   },
